@@ -2,4 +2,12 @@ body{
     background-color:lavender;
     border: 5px double black
 }
-
+header{
+    text-align: center;
+}
+nav{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+}

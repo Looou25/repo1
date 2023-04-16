@@ -1,20 +1,14 @@
 *{
     margin: 0;
-    padding: 0;
-}
-body {
+    padding: 0;}
+
+body{
     background-image: linear-gradient(to bottom, #051937, #061f4f, #182266, #32227a, #501b8c);
     color: white;
-  }
-
-  img{
-    height: 300px;
-  }
-  
-  #b{
-    list-style-type: square;
-  }
-  .header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
     background:url(imagenes/header.png); 
     background-size:contain;
     height:100px;
@@ -28,51 +22,43 @@ h1{
     font-family: 'Carrois Gothic', sans-serif;
 }
 #logo{
-  float: left;
+    float: left;
 }
 .logo{
-  height: 50px;
+    height: 50px;
 }
-
-  .pie {
+    .pie {
     background-color: #2a2a79;
     text-align: center;
     padding: 10px;
-  }
+    }
 .derecha{
     float: right;
 }
-
 a:link {
     color: rgb(201, 163, 252);
     text-decoration: none;
-
 }
-  
-
-  a:visited {
+    a:visited {
     color: rgb(79, 154, 197);
     text-decoration: none;
-  }
-  
+}
 
-  a:hover {
+    a:hover {
     color: rgb(250, 173, 212);
     text-decoration: underline;
-  }
-  
-
-  a:active {
+}
+    a:active {
     color: rgb(156, 143, 147);
     text-decoration: underline;
-  }
-  .topnav {
+    }
+    .topnav {
     overflow: hidden;
     background-color: #333;
     position: sticky;
     top: 0;
-  }
-  .topnav a {
+    }
+    .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -80,17 +66,50 @@ a:link {
     padding: 14px 16px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .topnav a:hover {
+    }
+    .topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
-  ul {
+    }
+    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
-  }
-  section{
-font-family: Arial, Helvetica, sans-serif;
-  }
+}
+.submit {
+    background-color: #0b4438; 
+    border:none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.submit:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+input[type=text] {
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type=email] {
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+#area{
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
